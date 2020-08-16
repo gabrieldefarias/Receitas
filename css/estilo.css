@@ -1,0 +1,59 @@
+body{
+    background-color: #e3e3e3;
+}
+#cabecalho{
+    background-color: #2a008b;
+    color: white;
+    padding: 10px 50px;
+}
+#conteudo{
+    border: 1px solid black;
+    background-color: white;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 15px 30px;
+}
+.paragrafo{
+    text-align: justify;
+}
+#conteudo #menu ul{
+    padding: 0px;
+    margin: 0px;
+}
+#conteudo #menu li{
+    list-style: none;
+    width: 200px;
+    text-align: center;
+    padding: 0px 0px;
+}
+#conteudo #menu a{
+    font-family: arial;
+    font-size: 11pt;
+    text-decoration: none;
+    border: 1px solid black;
+    color: white;
+    background-color: blue;
+    width: 100%;
+    display: inline-block;
+    padding: 8px 0px;
+}
+#conteudo #menu a:hover{ /*Só aparecerá quando o usuário passar o mouse no elemento*/
+    background-color: white;
+    color: #2a008b;
+}
+#conteudo #menu a.atual{ /*item do menu selecionado*/
+    background-color: white;
+    color: #2a008b;
+}
+#rodape{
+    background-color: #2a008b;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+/*================================================================*/
+@media screen and (max-width: 700px){
+    #conteudo{width: 100%; padding: 10px 10px;}
+    #conteudo #menu li{width: 100%;}
+}
