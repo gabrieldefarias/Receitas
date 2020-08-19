@@ -12,6 +12,9 @@ body{
     margin: 0px 70px;
     padding: 15px 30px;
 }
+#conteudo img{
+    width: 400px;
+}
 .paragrafo{
     text-align: justify;
 }
@@ -53,5 +56,6 @@ body{
 /*================================================================*/
 @media screen and (max-width: 600px){
     #conteudo{margin: 0px; padding: 10px 10px;}
+    #conteudo img{width: auto;}
     #conteudo #menu li{width: 100%;}
 }
