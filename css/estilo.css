@@ -1,18 +1,18 @@
-body{
+body{ /* Corpo do site */
     background-color: #e3e3e3;
 }
-#cabecalho{
+#cabecalho{ /* Cabeçalho do site, 1ª div do site */
     background-color: #2a008b;
     color: white;
     padding: 10px 50px;
 }
-#conteudo{
+#conteudo{/* 2ª div do site*/
     border: 1px solid black;
     background-color: white;
     margin: 0px 70px;
     padding: 15px 30px;
 }
-#conteudo img{
+#conteudo img{ /* Imagem do site */
     width: 400px;
 }
 .paragrafo{
@@ -47,14 +47,14 @@ body{
     background-color: white;
     color: #2a008b;
 }
-#rodape{
+#rodape{ /* Rodapé do site, 3ª div do site */
     background-color: #2a008b;
     color: white;
     text-align: center;
     padding: 10px;
 }
 /*================================================================*/
-@media screen and (max-width: 600px){
+@media screen and (max-width: 700px){ /* Para site ser responsivo */
     #cabecalho{padding: 10px 10px;}
     #conteudo{margin: 0px; padding: 10px 10px;}
     #conteudo img{width: auto;}
