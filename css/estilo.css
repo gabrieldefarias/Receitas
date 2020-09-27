@@ -6,7 +6,7 @@ body{ /* Corpo do site */
     color: white;
     padding: 10px 50px;
 }
-#conteudo{/* 2ª div do site*/
+#conteudo{ /* 2ª div do site*/
     border: 1px solid black;
     background-color: white;
     margin: 0px 70px;
@@ -15,10 +15,10 @@ body{ /* Corpo do site */
 #conteudo img{ /* Imagem do site */
     width: 400px;
 }
-.paragrafo{
+.paragrafo{ /* texto do site */
     text-align: justify;
 }
-#conteudo #menu ul{
+#conteudo #menu ul{ /* ul, li, a, a:hover: links do site */
     padding: 0px;
     margin: 0px;
 }
@@ -27,25 +27,23 @@ body{ /* Corpo do site */
     width: 200px;
     text-align: center;
     padding: 0px 0px;
+    display: inline-block;
 }
 #conteudo #menu a{
     font-family: arial;
     font-size: 11pt;
     text-decoration: none;
     border: 1px solid black;
+    border-radius: 20px;
     color: white;
     background-color: blue;
     width: 100%;
     display: inline-block;
     padding: 8px 0px;
 }
-#conteudo #menu a:hover{ /*Só aparecerá quando o usuário passar o mouse no elemento*/
-    background-color: white;
-    color: #2a008b;
-}
-#conteudo #menu a.atual{ /*item do menu selecionado*/
-    background-color: white;
-    color: #2a008b;
+#conteudo #menu a:hover{ /* Só aparecerá quando o usuário passar o mouse no elemento */
+    background-color: black;
+    color: white;
 }
 #rodape{ /* Rodapé do site, 3ª div do site */
     background-color: #2a008b;
@@ -53,8 +51,8 @@ body{ /* Corpo do site */
     text-align: center;
     padding: 10px;
 }
-/*================================================================*/
-@media screen and (max-width: 700px){ /* Para site ser responsivo */
+/*========================= Para o site ser responsivo =================================*/
+@media screen and (max-width: 700px){
     #cabecalho{padding: 10px 10px;}
     #conteudo{margin: 0px; padding: 10px 10px;}
     #conteudo img{width: auto;}
