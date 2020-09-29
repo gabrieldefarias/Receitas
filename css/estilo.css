@@ -55,6 +55,6 @@ body{ /* Corpo do site */
 @media screen and (max-width: 700px){
     #cabecalho{padding: 10px 10px;}
     #conteudo{margin: 0px; padding: 10px 10px;}
-    #conteudo img{width: auto;}
+    #conteudo img{width: 100%; height: 190px;}
     #conteudo #menu li{width: 100%;}
 }
