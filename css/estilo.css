@@ -1,6 +1,4 @@
-body{ /* Corpo do site */
-    background-color: #e3e3e3;
-}
+body{background-color: #e3e3e3;} /* Corpo do site */
 #cabecalho{ /* Cabeçalho do site, 1ª div do site */
     background-color: #2a008b;
     color: white;
@@ -13,11 +11,10 @@ body{ /* Corpo do site */
     padding: 15px 30px;
 }
 #conteudo img{ /* Imagem do site */
-    width: 400px;
+    width: 30%;
+    height: auto;
 }
-.paragrafo{ /* texto do site */
-    text-align: justify;
-}
+.paragrafo{text-align: justify;} /* texto do site */
 #conteudo #menu ul{ /* ul, li, a, a:hover: links do site */
     padding: 0px;
     margin: 0px;
@@ -52,7 +49,7 @@ body{ /* Corpo do site */
     padding: 10px;
 }
 /*========================= Para o site ser responsivo =================================*/
-@media screen and (max-width: 700px){
+@media screen and (max-width: 600px){
     #cabecalho{padding: 10px 10px;}
     #conteudo{margin: 0px; padding: 10px 10px;}
     #conteudo img{width: 100%; height: auto;}
