@@ -13,12 +13,10 @@ body{background-color: #e3e3e3;} /* Corpo do site */
 #conteudo img{ /* Imagem do site */
     width: 30%;
     height: auto;
+    border-radius: 40px;
 }
 .paragrafo{text-align: justify;} /* texto do site */
-#conteudo #menu ul{ /* ul, li, a, a:hover: links do site */
-    padding: 0px;
-    margin: 0px;
-}
+#conteudo #menu ul{padding: 0px; margin: 0px;} /* ul, li, a, a:hover: links do site */
 #conteudo #menu li{
     list-style: none;
     width: 200px;
@@ -48,10 +46,10 @@ body{background-color: #e3e3e3;} /* Corpo do site */
     text-align: center;
     padding: 10px;
 }
-/*========================= Para o site ser responsivo =================================*/
+/*======================= Para o site ser responsivo ===============================*/
 @media screen and (max-width: 600px){
     #cabecalho{padding: 10px 10px;}
-    #conteudo{margin: 0px; padding: 10px 10px;}
+    #conteudo{margin: 0px; padding: 10px;}
     #conteudo img{width: 100%; height: auto;}
     #conteudo #menu li{width: 100%;}
 }
