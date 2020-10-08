@@ -45,7 +45,7 @@ body{background-color: black;} /* Corpo do site */
     text-align: center;
     padding: 10px;
 }
-/*======================= Para o site ser responsivo ===============================*/
+/*==================== Para o site ser responsivo ====================*/
 @media screen and (max-width: 600px){
     #cabecalho{padding: 10px 10px;}
     #conteudo{margin: 0px; padding: 10px;}
